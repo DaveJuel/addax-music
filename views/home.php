@@ -11,7 +11,11 @@ ob_start();
                 <?php $web->showContent("slider",1,["image","title","description"]); ?>
             </ul>
         </div>
-    </div>      
+    </div>  
+    <!-- ========== LOAD PLAYER ========== -->
+    <div class="hbf_2">
+        <button class="btn btn-outline-primary btn-lg" style="text-color:white">START LISTENING</button>   
+    </div>    
 </section>
 <!-- ========== FEATURES ========== -->
 <section class="lightgrey_bg" id="features">
